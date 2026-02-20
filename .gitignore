@@ -1,0 +1,89 @@
+# =============== #
+# Unity generated #
+# =============== #
+Temp/
+Obj/
+UnityGenerated/
+Library/
+Assets/AssetStoreTools*
+*.log
+ProjectSettings/EditorUserSettings.asset
+src/*/.utmp
+
+# ================================================== #
+# Visual Studio / Jet Brains / MonoDevelop generated #
+# ================================================== #
+ExportedObj/
+.consulo/
+.idea
+.vs
+.vsconfig
+*.booproj
+*.csproj
+*.iml
+*.ipr
+*.iws
+*.mdb
+*.opendb
+*.pdb
+*.pidb
+*.suo
+*.svd
+*.tmp
+*.unityproj
+*.user
+*.userprefs
+*.VC.db
+
+# Ignore sln files by default, remove this directive if more advanced setup is required.
+*.sln
+
+# ================================ #
+# Jetbrains Rider plugin generated #
+# ================================ #
+/[Aa]ssets/Plugins/Editor/JetBrains*
+
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ============= #
+# User settings #
+# ============= #
+src/*/UserSettings
+
+# =========== #
+# Git version #
+# =========== #
+GitVersion.asset
+GitVersion.asset.meta
+
+# ===================================================================================== #
+# UserWorkspace is private folder for user. Its containment is ignored by project repo. #
+# It is useful to store tools and editor extension which is convenient                  #
+# for you but could be inconvenient or not required for other contributors.             #
+# ===================================================================================== #
+!src/*/Assets/UserWorkspace
+src/*/Assets/UserWorkspace/*
+!src/*/Assets/UserWorkspace/.gitkeep
+!src/*/Assets/UserWorkspace/Keystores
+src/*/Assets/UserWorkspace/Keystores/*
+!src/*/Assets/UserWorkspace/Keystores/KeystoreLink.txt
+
+# ================= #
+# Exlude docs build #
+# ================= #
+/docs/build
+
+# ================= #
+# Exlude builds     #
+# ================= #
+/src/*/Build
+/scripts/CI/invoke.yaml
