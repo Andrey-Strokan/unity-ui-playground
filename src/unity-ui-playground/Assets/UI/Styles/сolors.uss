@@ -1,0 +1,41 @@
+﻿:root{
+    /*Brand colors*/
+    --primary-blue: #43AFDF;
+    --primary-blue-highlight-strong: #8eceeb;
+    --primary-blue-highlight-less: #72c2e7;
+
+    --primary-purple: #97007E;
+    --primary-red: #ED344F;
+    --primary-green: #88DE42;
+    --primary-gold: #F9D939;
+    --primary-gray: #56646D;
+
+    /*Surface colors*/
+    --surface-light-primary: #FFFFFF;
+    --surface-light-secondary: #FFFFFFF2;
+    --surface-light-tertiary: #FFFFFF40;
+
+    --surface-dark-primary: #0A141D;
+    --surface-dark-secondary: #0A141DF7;
+    --surface-dark-tertiary: #0A141D66;
+
+    /*Text colors*/
+    --text-light-primary: #FFFFFF;
+    --text-light-secondary: #FFFFFFCC;
+    --text-light-dusabled: #FFFFFF80;
+
+    --text-dark-primary: #0A141D;
+    --text-dark-secondary: #0A141DCC;
+    --text-dark-disabled: #0A141D99;
+
+    /*States colors*/
+    --state-light-hover: #FFFFFF66;
+    --state-light-active: #FFFFFF40;
+
+    --state-dark-hover: #00000040;
+    --state-dark-active: #00000059;
+}
+
+.unity-disabled {
+    opacity: 1;
+}

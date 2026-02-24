@@ -1,0 +1,32 @@
+@import url("project://database/Assets/UI/Styles/%D1%81olors.uss?fileID=7433441132597879392&guid=840a665bb37c4d36a44a7214db76652a&type=3#сolors");
+@import url("project://database/Assets/UI/Styles/fonts.uss?fileID=7433441132597879392&guid=d2f8ee9e07b14d37a3211e552321da36&type=3#fonts");
+
+:root {
+    --radius: 16px;
+}
+
+.button-base {
+    color: var(--text-dark-primary);
+    background-color: var(--primary-blue);
+    border-radius: var(--radius);
+    height: 62px;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.button-base--hover:hover {
+    background-color: var(--primary-blue-highlight-strong);
+}
+
+.button-base--active:active {
+    background-color: var(--primary-blue-highlight-less);
+}
+
+.button-base--disabled:disabled {
+    color: var(--text-dark-disabled);
+    background-color: var(--primary-gray);
+}

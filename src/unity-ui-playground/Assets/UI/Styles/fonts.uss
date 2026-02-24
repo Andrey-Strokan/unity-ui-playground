@@ -1,0 +1,54 @@
+﻿:root{
+    --font-black: resource("Fonts & Materials/Inter_28pt-Black");
+    --font-bold: resource("Fonts & Materials/Inter_28pt-Bold");
+    --font-medium: resource("Fonts & Materials/Inter_28pt-Medium");
+    --font-regular: resource("Fonts & Materials/Inter_28pt-Regular");
+}
+
+.title-font-black {
+    -unity-font-definition: var(--font-black);
+    font-size: 48px;
+    letter-spacing: 2px;
+}
+
+.title-font-regular {
+    -unity-font-definition: var(--font-regular);
+    font-size: 48px;
+    letter-spacing: 2px;
+}
+
+.subtitle-font-bold {
+    -unity-font-definition: var(--font-bold);
+    font-size: 32px;
+    letter-spacing: 1px;
+}
+
+.subtitle-font-medium {
+    -unity-font-definition: var(--font-medium);
+    font-size: 32px;
+    letter-spacing: 1px;
+}
+
+.body-font-bold {
+    -unity-font-definition: var(--font-bold);
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+.body-font-medium {
+    -unity-font-definition: var(--font-medium);
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+.caption-font-regular {
+    -unity-font-definition: var(--font-regular);
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.button-font-bold {
+    -unity-font-definition: var(--font-bold);
+    font-size: 24px;
+    letter-spacing: 1px;
+}
