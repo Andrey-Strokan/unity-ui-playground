@@ -35,7 +35,3 @@
     --state-dark-hover: #00000040;
     --state-dark-active: #00000059;
 }
-
-.unity-disabled {
-    opacity: 1;
-}

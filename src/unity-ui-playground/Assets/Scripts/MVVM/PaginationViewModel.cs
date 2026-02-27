@@ -11,16 +11,16 @@ public class PaginationViewModel : MonoBehaviour
     [SerializeField]
     private PaginationModel paginationModel;
 
-    private Button btn_Next;
-    private Button btn_Previous;
+    private CustomButton btn_Next;
+    private CustomButton btn_Previous;
 
     private void Awake()
     {
         var root = uiDocument.rootVisualElement;
         root.dataSource = paginationModel;
 
-        btn_Next = root.Query("btn_Next").Children<Button>().First();
-        btn_Previous = root.Query("btn_Previous").Children<Button>().First();
+        btn_Next = root.Query("btn_Next").Children<CustomButton>().First();
+        btn_Previous = root.Query("btn_Previous").Children<CustomButton>().First();
 
         btn_Next.clicked += paginationModel.MoveNext;
         btn_Previous.clicked += paginationModel.MoveBack;

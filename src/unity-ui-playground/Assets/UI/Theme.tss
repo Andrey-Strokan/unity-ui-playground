@@ -1,10 +1,12 @@
 @import url("/Assets/Vendors/UI Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss");
 
-@import url("Styles/fonts.uss");
-@import url("Styles/сolors.uss");
+@import url("Styles/reset.uss");
 @import url("Styles/Elements/buttons.uss");
 @import url("Styles/Elements/view_background.uss");
 @import url("Styles/Views/pagination_view.uss");
+@import url("Styles/fonts.uss");
+@import url("Styles/сolors.uss");
+@import url("Styles/reset.uss");
 
 
 

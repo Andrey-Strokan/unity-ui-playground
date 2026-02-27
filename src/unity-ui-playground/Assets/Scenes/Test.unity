@@ -227,7 +227,6 @@ GameObject:
   - component: {fileID: 1041151319}
   - component: {fileID: 1041151318}
   - component: {fileID: 1041151320}
-  - component: {fileID: 1041151321}
   m_Layer: 5
   m_Name: PaginationView
   m_TagString: Untagged
@@ -306,21 +305,6 @@ MonoBehaviour:
         are commonly used in woodworking, metalwork, and mechanical assembly tasks\nwhere
         secure fastening is required.\n"
       Image: {fileID: 21300000, guid: fe53817ad5b7aa3408cfb61871600c67, type: 3}
---- !u!114 &1041151321
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1041151317}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 397713dbea839524281d49bda6531b74, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::USSClassRemover
-  uiDocument: {fileID: 1041151318}
-  classNames:
-  - .unity-button
 --- !u!1 &1586058146
 GameObject:
   m_ObjectHideFlags: 0

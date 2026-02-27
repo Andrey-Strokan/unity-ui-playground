@@ -1,7 +1,3 @@
-@import url("project://database/Assets/UI/Styles/Elements/view_background.uss?fileID=7433441132597879392&guid=f456e6c5c85f5a549b70a29161cca7ea&type=3#view_background");
-@import url("project://database/Assets/UI/Styles/%D1%81olors.uss?fileID=7433441132597879392&guid=840a665bb37c4d36a44a7214db76652a&type=3#сolors");
-@import url("project://database/Assets/UI/Styles/fonts.uss?fileID=7433441132597879392&guid=d2f8ee9e07b14d37a3211e552321da36&type=3#fonts");
-
 .page {
     flex-direction: row;
     justify-content: center;
