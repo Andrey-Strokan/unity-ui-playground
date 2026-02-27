@@ -1,0 +1,39 @@
+@import url("project://database/Assets/UI/Styles/%D1%81olors.uss?fileID=7433441132597879392&guid=840a665bb37c4d36a44a7214db76652a&type=3#сolors");
+
+:root {
+    --background-border-radius: 16px;
+}
+
+.content-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: auto;
+}
+
+.content-child {
+    display: flex;
+    width: auto;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 32px 48px 32px 48px;
+}
+
+.background-main {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: var(--background-border-radius);
+    background-color: var(--surface-dark-tertiary);
+}
+
+.text-area-background {
+    background-color: var(--surface-dark-tertiary);
+    border-radius: var(--background-border-radius);
+    padding: 32px;
+    width: 100%;
+    height: 100%;
+}

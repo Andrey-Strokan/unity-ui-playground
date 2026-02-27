@@ -5,17 +5,26 @@
     --radius: 16px;
 }
 
+Button {
+    -unity-font-definition: var(--font-bold);
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
 .button-base {
     color: var(--text-dark-primary);
     background-color: var(--primary-blue);
     border-radius: var(--radius);
     height: 62px;
-    border-top-width: 0;
-    border-right-width: 0;
-    border-bottom-width: 0;
-    border-left-width: 0;
+    border-width: 0;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 0;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 .button-base--hover:hover {

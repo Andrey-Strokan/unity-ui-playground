@@ -17,12 +17,12 @@
 
     --surface-dark-primary: #0A141D;
     --surface-dark-secondary: #0A141DF7;
-    --surface-dark-tertiary: #0A141D66;
+    --surface-dark-tertiary: rgba(10, 20, 29, 0.8);
 
     /*Text colors*/
     --text-light-primary: #FFFFFF;
     --text-light-secondary: #FFFFFFCC;
-    --text-light-dusabled: #FFFFFF80;
+    --text-light-disabled: #FFFFFF80;
 
     --text-dark-primary: #0A141D;
     --text-dark-secondary: #0A141DCC;

@@ -226,8 +226,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1041151319}
   - component: {fileID: 1041151318}
-  - component: {fileID: 1041151320}
-  - component: {fileID: 1041151321}
   m_Layer: 5
   m_Name: PaginationView
   m_TagString: Untagged
@@ -256,7 +254,7 @@ MonoBehaviour:
   m_WorldSpaceWidth: 1920
   m_WorldSpaceHeight: 1080
   m_PivotReferenceSize: 0
-  m_Pivot: 7
+  m_Pivot: 0
   m_WorldSpaceCollider: {fileID: 0}
 --- !u!4 &1041151319
 Transform:
@@ -267,60 +265,12 @@ Transform:
   m_GameObject: {fileID: 1041151317}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -2.14, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1041151320
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1041151317}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: acb9f5615a9fcdc478eb6e561ce86b26, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PageViewModel
-  uiDocument: {fileID: 1041151318}
-  paginationModel:
-    Pages:
-    - Title: Power Drill
-      Subtitle: Overview
-      Content: "A power drill is an electric tool designed for drilling \nholes into
-        various materials such as wood, metal,\nor plastic. It can also be used for
-        driving screws when \nequipped with the right bit. Power drills are available\nin
-        both corded and cordless models and are commonly \nused in woodworking, construction,
-        and DIY projects."
-      Image: {fileID: -24690104107724484, guid: fc91e5b4d876a284bb9d85e850a903a1, type: 3}
-    - Title: Wrench and Ratchet
-      Subtitle: Overview
-      Content: "A wrench and ratchet are manual tools used to tighten or loosen bolts,
-        nuts,\nand other fasteners.\n\n  - A wrench provides a fixed grip on the
-        bolt head or nut, allowing you to turn it by hand.\n    \n  - A ratchet,
-        on the other hand, uses a gear-and-socket mechanism that allows continuous\n   
-        tightening or loosening without removing the tool from the bolt.\n\nBoth
-        are commonly used in woodworking, metalwork, and mechanical assembly tasks\nwhere
-        secure fastening is required.\n"
-      Image: {fileID: 21300000, guid: fe53817ad5b7aa3408cfb61871600c67, type: 3}
---- !u!114 &1041151321
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1041151317}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 397713dbea839524281d49bda6531b74, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::USSClassRemover
-  uiDocument: {fileID: 1041151318}
-  classNames:
-  - .unity-button
 --- !u!1 &1586058146
 GameObject:
   m_ObjectHideFlags: 0

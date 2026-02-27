@@ -1,0 +1,52 @@
+@import url("project://database/Assets/UI/Styles/Elements/view_background.uss?fileID=7433441132597879392&guid=f456e6c5c85f5a549b70a29161cca7ea&type=3#view_background");
+@import url("project://database/Assets/UI/Styles/%D1%81olors.uss?fileID=7433441132597879392&guid=840a665bb37c4d36a44a7214db76652a&type=3#сolors");
+@import url("project://database/Assets/UI/Styles/fonts.uss?fileID=7433441132597879392&guid=d2f8ee9e07b14d37a3211e552321da36&type=3#fonts");
+
+.page {
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: flex-start;
+    margin-bottom: 24px;
+}
+
+.page__title-container {
+    margin-bottom: 24px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.page__pagination {
+    color: var(--text-light-disabled);
+}
+
+.page__image-container {
+    padding-top: 17px;
+    padding-right: 25px;
+    padding-bottom: 17px;
+    padding-left: 25px;
+}
+
+.page__text-container {
+    color: var(--text-light-primary);
+    margin-left: 32px;
+}
+
+.page__buttons-container {
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    margin-top: 0;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+
+.page__button {
+    width: 211px;
+    padding-right: 0;
+    margin-right: 12px;
+    margin-left: 12px;
+}

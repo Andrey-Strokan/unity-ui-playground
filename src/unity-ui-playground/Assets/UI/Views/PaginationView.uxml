@@ -1,0 +1,52 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="ButtonMain" src="project://database/Assets/UI/Element/ButtonMain.uxml?fileID=9197481963319205126&amp;guid=22bf72f3deb917f44ac3af283d692aec&amp;type=3#ButtonMain"/>
+    <Style src="project://database/Assets/UI/Styles/Views/pagination_view.uss?fileID=7433441132597879392&amp;guid=fe38aa434ee0af84593c68a9e247dde0&amp;type=3#pagination_view"/>
+    <ui:VisualElement name="Content" class="content-parent" style="position: absolute; bottom: 0; left: 0; right: 0;">
+        <ui:VisualElement name="Root" class="content-child">
+            <ui:VisualElement name="Background" class="background-main" style="flex-grow: 1;"/>
+            <ui:VisualElement name="PageContainer" class="text-area-background page">
+                <ui:VisualElement name="ImageContainer" class="page__image-container">
+                    <ui:Image source="project://database/Assets/UI/Sprites/drill-01.png?fileID=2800000&amp;guid=fc91e5b4d876a284bb9d85e850a903a1&amp;type=3#drill-01">
+                        <Bindings>
+                            <ui:DataBinding property="source" data-source-path="CurrentPage.Image" data-source-type="PaginationModel, Assembly-CSharp" binding-mode="ToTarget"/>
+                        </Bindings>
+                    </ui:Image>
+                </ui:VisualElement>
+                <ui:VisualElement name="TextContainer" class="page__text-container">
+                    <ui:VisualElement name="TitleContainer" class="page__title-container">
+                        <ui:Label text="Power Drill" name="Title" class="subtitle-font-bold">
+                            <Bindings>
+                                <ui:DataBinding property="text" data-source-path="CurrentPage.Title" data-source-type="PaginationModel, Assembly-CSharp" binding-mode="ToTarget"/>
+                            </Bindings>
+                        </ui:Label>
+                        <ui:Label text="1/10" name="Page" class="page__pagination body-font-medium">
+                            <Bindings>
+                                <ui:DataBinding property="text" data-source-path="PageIndexText" data-source-type="PaginationModel, Assembly-CSharp" binding-mode="ToTarget"/>
+                            </Bindings>
+                        </ui:Label>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="DescriptionConainer">
+                        <ui:Label text="Key Aspects of Safely Using the Tool" name="Subtitle" class="body-font-bold">
+                            <Bindings>
+                                <ui:DataBinding property="text" data-source-path="CurrentPage.Subtitle" data-source-type="PaginationModel, Assembly-CSharp" binding-mode="ToTarget"/>
+                            </Bindings>
+                        </ui:Label>
+                        <ui:Label text="After Using the Tool:&#10;Release the trigger and allow the drill to come to a complete stop;&#10;Unplug the corded drill or remove the battery pack when changing bits or when not in use;&#10;Loosen the chuck and safely remove the bit;&#10;Clean off dust or debris and store the drill in a dry place." name="Description" class="body-font-medium">
+                            <Bindings>
+                                <ui:DataBinding property="text" data-source-path="CurrentPage.Content" data-source-type="PaginationModel, Assembly-CSharp" binding-mode="ToTarget"/>
+                            </Bindings>
+                        </ui:Label>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="ButtonsContainer" class="page__buttons-container">
+                <ui:Instance template="ButtonMain" name="btn_Previous" class="page__button">
+                    <AttributeOverrides element-name="Button" text="Previous"/>
+                </ui:Instance>
+                <ui:Instance template="ButtonMain" name="btn_Next" class="page__button">
+                    <AttributeOverrides element-name="Button" text="Next"/>
+                </ui:Instance>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
