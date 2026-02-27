@@ -1,0 +1,8 @@
+:root{
+    /*General*/
+    --border-radius: 16px;
+}
+
+.unity-disable {
+    opacity: 1;
+}

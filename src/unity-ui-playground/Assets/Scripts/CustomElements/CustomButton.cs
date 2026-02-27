@@ -8,26 +8,10 @@ public partial class CustomButton : Button
 
     private const string CustomButtonClassName = "button-custom";
 
-    private Label label;
-
     public CustomButton()
     {
         RemoveFromClassList(UnityTextElementClassName);
         RemoveFromClassList(UnityButtonClassName);
         AddToClassList(CustomButtonClassName);
-
-        Add(label);
-
-        generateVisualContent += OnGenerateVisualContent;
-    }
-
-    ~CustomButton()
-    {
-        generateVisualContent -= OnGenerateVisualContent;
-    }
-
-    private void OnGenerateVisualContent(MeshGenerationContext obj)
-    {
-        label.text = text;
     }
 }

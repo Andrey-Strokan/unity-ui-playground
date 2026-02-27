@@ -8,7 +8,7 @@
 .button-custom.button-base {
     color: var(--text-dark-primary);
     background-color: var(--primary-blue);
-    border-radius: var(--radius);
+    border-radius: var(--border-radius);
     height: 62px;
     border-width: 0;
     margin: 0;
