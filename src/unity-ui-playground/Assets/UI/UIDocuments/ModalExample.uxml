@@ -1,0 +1,9 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="Button" src="project://database/Assets/UI/UIDocuments/Elements/ButtonBase.uxml?fileID=9197481963319205126&amp;guid=cc746ea66252e61408fac88c81178107&amp;type=3#ButtonBase"/>
+    <Style src="project://database/Assets/UI/Styles/ModalExample.uss?fileID=7433441132597879392&amp;guid=3750f009deb57a946a646bc90e851663&amp;type=3#ModalExample"/>
+    <ui:VisualElement name="Modal" class="modal" style="flex-grow: 1;">
+        <ui:Label text="Modal with button" name="Header" class="modal__header-text body-text on-surface"/>
+        <ui:Instance template="Button" name="TemplateContainer"/>
+        <ui:Label text="Clickcked at: {0}" name="Caption" class="on-surface caption-text"/>
+    </ui:VisualElement>
+</ui:UXML>

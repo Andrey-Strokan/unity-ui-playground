@@ -1,6 +1,6 @@
 .header {
     background-color: var(--color-surface);
-    border-radius: var(--border-radius-medium);
+    border-radius: var(--border-radius-large);
     padding-top: 36px;
     padding-right: 36px;
     padding-bottom: 36px;

@@ -1,0 +1,6 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Styles/Elements/Button.uss?fileID=7433441132597879392&amp;guid=e64f80c98b2a9184e838691ae9e05712&amp;type=3#Button"/>
+    <ui:VisualElement name="ButtonRoot" class="button-base" style="flex-grow: 1;">
+        <ui:Button text="Button" name="Button" class="button-text on-primary" style="background-size: 100% 1256px;"/>
+    </ui:VisualElement>
+</ui:UXML>

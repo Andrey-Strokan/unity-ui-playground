@@ -22,7 +22,7 @@ namespace UnityEngine.XR.Interaction.Toolkit.Samples.WorldSpaceUI
             set => m_OnButtonClicked = value;
         }
 
-        const string k_LabelName = "DebugLabel";
+        const string k_LabelName = "Caption";
 #if UIELEMENTS_MODULE_AVAILABLE
         Button m_Button;
         Label m_Label;

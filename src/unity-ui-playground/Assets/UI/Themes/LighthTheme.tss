@@ -1,8 +1,15 @@
-@import url("/Assets/Samples/XR Interaction Toolkit/3.3.1/World Space UI/Styles/XRIDefaultRuntimeTheme.tss");
+@import url("unity-theme://default");
 
 @import url("/Assets/UI/Styles/Common/Colors.uss");
 @import url("/Assets/UI/Styles/Common/Global.uss");
 @import url("/Assets/UI/Styles/Common/Typography.uss");
+@import url("/Assets/UI/Styles/Elements/ScrollView.uss");
+@import url("/Assets/UI/Styles/Elements/Button.uss");
+@import url("/Assets/UI/Styles/Elements/Slider.uss");
+@import url("/Assets/UI/Styles/Elements/Dropdown.uss");
 @import url("/Assets/UI/Styles/Header.uss");
+@import url("/Assets/UI/Styles/ModalExample.uss");
 
-VisualElement {}
+
+
+

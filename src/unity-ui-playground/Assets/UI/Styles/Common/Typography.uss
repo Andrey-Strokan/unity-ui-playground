@@ -36,6 +36,24 @@
     color: var(--color-text-on-surface);
 }
 
+/* Caption text styles */
+.caption-text{
+    font-size: 16px;
+    -unity-font-style: normal;
+}
+
+.caption-text.on-primary{
+    color: var(--color-text-on-primary);
+}
+
+.caption-text.on-secondary{
+    color: var(--color-text-on-secondary);
+}
+
+.caption-text.on-surface{
+    color: var(--color-text-on-surface);
+}
+
 /* Button text styles */
 .button-text{
     font-size: 24px;

@@ -1,0 +1,10 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Styles/Elements/ScrollView.uss?fileID=7433441132597879392&amp;guid=a5c71e9476cd0c04eb6bc364e9807442&amp;type=3"/>
+    <ui:VisualElement name="ScrollView" class="scroll-view" style="flex-grow: 1;">
+        <ui:Label text="Test Scrollview" name="Header" class="body-text on-surface scroll-view__header-text"/>
+        <ui:VisualElement name="Divider" class="scroll-view__divider"/>
+        <ui:ScrollView name="ScrollView" mode="VerticalAndHorizontal" style="width: 100%; height: 100%;">
+            <ui:Label text="You can scroll this window&#10;using the scrollbars or with &#10;the arrow buttons.&#10;Vertical and horizontal scrolling &#10;are both supported. " class="scroll-view__content-text body-text on-surface"/>
+        </ui:ScrollView>
+    </ui:VisualElement>
+</ui:UXML>
