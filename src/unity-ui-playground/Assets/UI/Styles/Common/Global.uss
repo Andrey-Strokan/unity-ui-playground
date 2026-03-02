@@ -1,0 +1,8 @@
+﻿:root{
+    --border-radius-small: 8px;
+    --border-radius-medium: 16px;
+}
+
+.unity-disabled{
+    opacity: 1.0;
+}

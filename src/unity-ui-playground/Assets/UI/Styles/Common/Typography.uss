@@ -1,0 +1,55 @@
+﻿/* Typography styles for UI elements */
+
+/* Title text styles */
+.title-text{
+    font-size: 48px;
+    -unity-font-style: bold;
+}
+
+.title-text.on-primary{
+    color: var(--color-text-on-primary);
+}
+
+.title-text.on-secondary{
+    color: var(--color-text-on-secondary);
+}
+
+.title-text.on-surface{
+    color: var(--color-text-on-surface);
+}
+
+/* Body text styles */
+.body-text{
+    font-size: 24px;
+    -unity-font-style: normal;
+}
+
+.body-text.on-primary{
+    color: var(--color-text-on-primary);
+}
+
+.body-text.on-secondary{
+    color: var(--color-text-on-secondary);
+}
+
+.body-text.on-surface{
+    color: var(--color-text-on-surface);
+}
+
+/* Button text styles */
+.button-text{
+    font-size: 24px;
+    -unity-font-style: bold;
+}
+
+.button-text.on-primary{
+    color: var(--color-text-on-primary);
+}
+
+.button-text.on-secondary{
+    color: var(--color-text-on-secondary);
+}
+
+.button-text.on-surface{
+    color: var(--color-text-on-surface);
+}

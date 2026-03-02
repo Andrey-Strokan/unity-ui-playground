@@ -1,0 +1,9 @@
+:root{
+    --color-primary: #6100ec;
+    --color-secondary: #03d8c4;
+    --color-surface: rgba(253, 253, 253, 0.8);
+
+    --color-text-on-primary: #fdfdfd;
+    --color-text-on-secondary: #000000;
+    --color-text-on-surface: #000000;
+}

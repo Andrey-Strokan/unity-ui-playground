@@ -1,0 +1,7 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Styles/Header.uss?fileID=7433441132597879392&amp;guid=3b011c25d00a13842ae90912fb612dd8&amp;type=3#Header"/>
+    <ui:VisualElement name="Header" class="header">
+        <ui:Label text="UI ToolKit" name="Title" class="title-text on-surface header__title"/>
+        <ui:Label text="This station demonstrates world space UI support for XR Interaction Toolkit using UI Toolkit. The functionality is implemented in the core XRI package while the XRI styling can be found in this sample&apos;s folder. Both ray and poke are supported." name="Text" class="header__text"/>
+    </ui:VisualElement>
+</ui:UXML>

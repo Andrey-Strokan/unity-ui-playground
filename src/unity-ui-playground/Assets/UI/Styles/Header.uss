@@ -1,0 +1,17 @@
+.header {
+    background-color: var(--color-surface);
+    border-radius: var(--border-radius-medium);
+    padding-top: 36px;
+    padding-right: 36px;
+    padding-bottom: 36px;
+    padding-left: 36px;
+}
+
+.header__title {
+    -unity-text-align: upper-center;
+    margin-bottom: 24px;
+}
+
+.header__text {
+    white-space: pre-wrap;
+}
