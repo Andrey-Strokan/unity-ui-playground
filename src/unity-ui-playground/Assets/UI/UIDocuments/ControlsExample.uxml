@@ -10,7 +10,7 @@
         <ui:VisualElement name="Buttons" class="controls-example__horizontal-group">
             <ui:Instance template="ButtonBase" name="TemplateContainer" class="controls-example__long-button"/>
             <ui:Instance template="ButtonBase" class="controls-example__short-button">
-                <AttributeOverrides element-name="Button" text="" icon-image="project://database/Assets/Samples/XR%20Interaction%20Toolkit/3.3.1/Starter%20Assets/DemoSceneAssets/Sprites/Asset.png?fileID=2800000&amp;guid=17d565bb4a7744b41b7e4dc7e3a09e35&amp;type=3#Asset"/>
+                <AttributeOverrides element-name="Button" text="" icon-image="project://database/Assets/Vendors/SaritasaVR-Toolset/Runtime/Climb/Sprites/Circle_60x60%20Outline%204.png?fileID=2800000&amp;guid=2f8349570a152884fb6cf7ebdc8c18b3&amp;type=3#Circle_60x60 Outline 4"/>
             </ui:Instance>
         </ui:VisualElement>
         <ui:Label text="Toggle" name="TogglesTitle" class="caption-text controls-example__caption"/>

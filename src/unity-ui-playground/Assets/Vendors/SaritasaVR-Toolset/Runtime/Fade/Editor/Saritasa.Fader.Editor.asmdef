@@ -1,0 +1,20 @@
+{
+    "name": "Saritasa.Fader.Editor",
+    "rootNamespace": "Saritasa.Fader.Editor",
+    "references": [
+        "Saritasa.Fader",
+        "Unity.XR.Interaction.Toolkit",
+        "Unity.XR.Interaction.Toolkit.Editor"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

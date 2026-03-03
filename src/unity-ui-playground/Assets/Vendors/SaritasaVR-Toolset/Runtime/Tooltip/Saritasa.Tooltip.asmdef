@@ -1,0 +1,17 @@
+{
+    "name": "Saritasa.Tooltip",
+    "rootNamespace": "Saritasa.Tooltip",
+    "references": [
+        "Unity.TextMeshPro",
+        "Saritasa.Utils"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

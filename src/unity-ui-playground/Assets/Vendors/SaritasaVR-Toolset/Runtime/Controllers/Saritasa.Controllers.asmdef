@@ -1,0 +1,19 @@
+{
+    "name": "Saritasa.Controllers",
+    "rootNamespace": "Saritasa.Controllers",
+    "references": [
+        "Unity.XR.Interaction.Toolkit",
+        "Saritasa.Tooltip",
+        "Saritasa.XRCustomInpurSystem",
+        "Saritasa.Utils"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
