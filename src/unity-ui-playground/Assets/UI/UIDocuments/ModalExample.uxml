@@ -3,7 +3,14 @@
     <Style src="project://database/Assets/UI/Styles/ModalExample.uss?fileID=7433441132597879392&amp;guid=3750f009deb57a946a646bc90e851663&amp;type=3#ModalExample"/>
     <ui:VisualElement name="Modal" class="modal" style="flex-grow: 1;">
         <ui:Label text="Modal with button" name="Header" class="modal__header-text body-text on-surface"/>
-        <ui:Instance template="Button" name="TemplateContainer"/>
-        <ui:Label text="Clickcked at: {0}" name="Caption" class="on-surface caption-text"/>
+        <ui:Instance template="Button" name="TemplateContainer" class="modal__button"/>
+        <ui:VisualElement class="modal__horizontal-group" style="flex-grow: 1;">
+            <ui:Label text="Clickcked at:" name="Caption" class="on-surface caption-text"/>
+            <ui:Label text="1" name="Time" class="on-surface caption-text">
+                <Bindings>
+                    <ui:DataBinding property="text" data-source-path="time" data-source-type="TimeModel, Assembly-CSharp" binding-mode="ToTarget"/>
+                </Bindings>
+            </ui:Label>
+        </ui:VisualElement>
     </ui:VisualElement>
 </ui:UXML>

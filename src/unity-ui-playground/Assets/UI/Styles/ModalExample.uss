@@ -9,3 +9,11 @@
     -unity-font-style: bold;
     margin-bottom: 12px;
 }
+
+.modal__button {
+    height: 48px;
+}
+
+.modal__horizontal-group {
+    flex-direction: row;
+}
