@@ -9,6 +9,10 @@
     margin: 0;
 }
 
+.slider-base Slider #unity-drag-container .unity-base-slider__fill {
+    min-width: 10px;
+}
+
 .slider-base Slider #unity-drag-container:hover .unity-base-slider__fill {
     background-color: var(--color-primary-variant);
 }

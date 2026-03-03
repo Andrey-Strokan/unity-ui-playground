@@ -1,0 +1,22 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="ButtonBase" src="project://database/Assets/UI/UIDocuments/Elements/ButtonBase.uxml?fileID=9197481963319205126&amp;guid=cc746ea66252e61408fac88c81178107&amp;type=3#ButtonBase"/>
+    <ui:Template name="DropDown" src="project://database/Assets/UI/UIDocuments/Elements/DropDown.uxml?fileID=9197481963319205126&amp;guid=f098022cd852e614382880014a71f933&amp;type=3#DropDown"/>
+    <ui:Template name="Slider" src="project://database/Assets/UI/UIDocuments/Elements/Slider.uxml?fileID=9197481963319205126&amp;guid=98bcc68a2fb2bb1418650958dd8d3e9e&amp;type=3#Slider"/>
+    <ui:Template name="Toggle" src="project://database/Assets/UI/UIDocuments/Elements/Toggle.uxml?fileID=9197481963319205126&amp;guid=3d2d7c2eec0b6544682ae39fe92ea389&amp;type=3#Toggle"/>
+    <Style src="project://database/Assets/UI/Styles/ControlsExample.uss?fileID=7433441132597879392&amp;guid=8e8b5f262c860b44c8c20cebc330bd61&amp;type=3#ControlsExample"/>
+    <ui:VisualElement name="ControlsExample" class="controls-example" style="flex-grow: 1;">
+        <ui:Label text="UI Toolkit Controls" name="Title" class="controls-example__title body-text"/>
+        <ui:Label text="Buttons" name="ButtonsTitle" class="caption-text controls-example__caption"/>
+        <ui:VisualElement name="Buttons" class="controls-example__horizontal-group">
+            <ui:Instance template="ButtonBase" name="TemplateContainer" class="controls-example__long-button"/>
+            <ui:Instance template="ButtonBase" class="controls-example__short-button">
+                <AttributeOverrides element-name="Button" text="" icon-image="project://database/Assets/Samples/XR%20Interaction%20Toolkit/3.3.1/Starter%20Assets/DemoSceneAssets/Sprites/Asset.png?fileID=2800000&amp;guid=17d565bb4a7744b41b7e4dc7e3a09e35&amp;type=3#Asset"/>
+            </ui:Instance>
+        </ui:VisualElement>
+        <ui:Label text="Toggle" name="TogglesTitle" class="caption-text controls-example__caption"/>
+        <ui:Instance template="Slider" class="controls-example__element-container"/>
+        <ui:Label text="Other" name="OtherTitle" class="caption-text controls-example__caption"/>
+        <ui:Instance template="DropDown" class="controls-example__element-container"/>
+        <ui:Instance template="Toggle" class="controls-example__element-container"/>
+    </ui:VisualElement>
+</ui:UXML>

@@ -22,6 +22,10 @@
     color: var(--color-text-on-secondary);
 }
 
+.button-base #Button:active Image {
+    --unity-image-tint-color: var(--color-text-on-secondary);
+}
+
 .button-base #Button:focus {
     border-top-width: 0;
     border-right-width: 0;

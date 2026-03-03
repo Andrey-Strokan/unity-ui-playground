@@ -1,0 +1,6 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Styles/Elements/Toggle.uss?fileID=7433441132597879392&amp;guid=8811cc1e389d58d4eaa06d774514e268&amp;type=3#Toggle"/>
+    <ui:VisualElement name="ToggleRoot" class="toggle-base" style="flex-grow: 1;">
+        <ui:Toggle text="Text Toggle" name="Toggle" class="button-text on-primary"/>
+    </ui:VisualElement>
+</ui:UXML>
