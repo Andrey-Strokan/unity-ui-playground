@@ -5,17 +5,17 @@
     <ui:Template name="Toggle" src="project://database/Assets/UI/UIDocuments/Elements/Toggle.uxml?fileID=9197481963319205126&amp;guid=3d2d7c2eec0b6544682ae39fe92ea389&amp;type=3#Toggle"/>
     <Style src="project://database/Assets/UI/Styles/ControlsExample.uss?fileID=7433441132597879392&amp;guid=8e8b5f262c860b44c8c20cebc330bd61&amp;type=3#ControlsExample"/>
     <ui:VisualElement name="ControlsExample" class="controls-example" style="flex-grow: 1;">
-        <ui:Label text="UI Toolkit Controls" name="Title" class="controls-example__title body-text"/>
-        <ui:Label text="Buttons" name="ButtonsTitle" class="caption-text controls-example__caption"/>
+        <ui:Label text="UI Toolkit Controls" name="Title" class="controls-example__title body-text on-surface"/>
+        <ui:Label text="Buttons" name="ButtonsTitle" class="caption-text controls-example__caption on-surface"/>
         <ui:VisualElement name="Buttons" class="controls-example__horizontal-group">
             <ui:Instance template="ButtonBase" name="TemplateContainer" class="controls-example__long-button"/>
             <ui:Instance template="ButtonBase" class="controls-example__short-button">
                 <AttributeOverrides element-name="Button" text="" icon-image="project://database/Assets/Vendors/SaritasaVR-Toolset/Runtime/Climb/Sprites/Circle_60x60%20Outline%204.png?fileID=2800000&amp;guid=2f8349570a152884fb6cf7ebdc8c18b3&amp;type=3#Circle_60x60 Outline 4"/>
             </ui:Instance>
         </ui:VisualElement>
-        <ui:Label text="Toggle" name="TogglesTitle" class="caption-text controls-example__caption"/>
+        <ui:Label text="Toggle" name="TogglesTitle" class="caption-text controls-example__caption on-surface"/>
         <ui:Instance template="Toggle" class="controls-example__element-container"/>
-        <ui:Label text="Other" name="OtherTitle" class="caption-text controls-example__caption"/>
+        <ui:Label text="Other" name="OtherTitle" class="caption-text controls-example__caption on-surface"/>
         <ui:Instance template="DropDown" class="controls-example__element-container"/>
         <ui:Instance template="Slider" class="controls-example__element-container"/>
     </ui:VisualElement>
