@@ -1,7 +1,7 @@
 ﻿:root{
     --border-radius-small: 4px;
-    --border-radius-medium: 8px;
-    --border-radius-large: 16px;
+    --border-radius-medium:16px;
+    --border-radius-large: 32px;
 }
 
 .unity-disabled{

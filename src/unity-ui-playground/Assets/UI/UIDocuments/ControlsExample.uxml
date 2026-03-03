@@ -14,9 +14,9 @@
             </ui:Instance>
         </ui:VisualElement>
         <ui:Label text="Toggle" name="TogglesTitle" class="caption-text controls-example__caption"/>
-        <ui:Instance template="Slider" class="controls-example__element-container"/>
+        <ui:Instance template="Toggle" class="controls-example__element-container"/>
         <ui:Label text="Other" name="OtherTitle" class="caption-text controls-example__caption"/>
         <ui:Instance template="DropDown" class="controls-example__element-container"/>
-        <ui:Instance template="Toggle" class="controls-example__element-container"/>
+        <ui:Instance template="Slider" class="controls-example__element-container"/>
     </ui:VisualElement>
 </ui:UXML>
