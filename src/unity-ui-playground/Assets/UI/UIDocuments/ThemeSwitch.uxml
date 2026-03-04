@@ -1,0 +1,9 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="Toggle" src="project://database/Assets/UI/UIDocuments/Elements/Toggle.uxml?fileID=9197481963319205126&amp;guid=3d2d7c2eec0b6544682ae39fe92ea389&amp;type=3#Toggle"/>
+    <Style src="project://database/Assets/UI/Styles/ThemeSwitch.uss?fileID=7433441132597879392&amp;guid=c903e8ab26f27914aa6df32e728a5b05&amp;type=3#ThemeSwitch"/>
+    <ui:VisualElement name="ThemeSwitch" class="theme-switch" style="flex-grow: 1;">
+        <ui:Instance template="Toggle" class="theme-switch__toggle">
+            <AttributeOverrides element-name="Toggle" toggle-on-label-click="false"/>
+        </ui:Instance>
+    </ui:VisualElement>
+</ui:UXML>

@@ -21,7 +21,7 @@ public class TimeViewModel : MonoBehaviour
         model = new TimeModel();
         root.dataSource = model;
 
-        btn_UpdateTime = root.Q<Button>();
+        btn_UpdateTime = root.Query<VisualElement>("Modal").First().Q<Button>();
 
         btn_UpdateTime.clicked += OnClicked;
     }

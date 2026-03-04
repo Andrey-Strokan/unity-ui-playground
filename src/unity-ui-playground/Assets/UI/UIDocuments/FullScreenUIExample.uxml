@@ -1,0 +1,15 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="ControlsExample" src="project://database/Assets/UI/UIDocuments/ControlsExample.uxml?fileID=9197481963319205126&amp;guid=44b2516e217e8e042a357a887b46f0d0&amp;type=3#ControlsExample"/>
+    <ui:Template name="ModalExample" src="project://database/Assets/UI/UIDocuments/ModalExample.uxml?fileID=9197481963319205126&amp;guid=03cf34d45d43bcf428239f4c3cb1590b&amp;type=3#ModalExample"/>
+    <ui:Template name="ThemeSwitch" src="project://database/Assets/UI/UIDocuments/ThemeSwitch.uxml?fileID=9197481963319205126&amp;guid=0b936c7952f263d4ea59ea68519f9248&amp;type=3#ThemeSwitch"/>
+    <Style src="project://database/Assets/UI/Styles/FullScreenExample.uss?fileID=7433441132597879392&amp;guid=4cfe5494b7d35f4489fa1eb3b7a855ce&amp;type=3#FullScreenExample"/>
+    <ui:VisualElement name="FullScreenExample" class="full-screen-example" style="flex-grow: 1;">
+        <UIToolKitSafeAreaContainer name="UIToolKitSafeAreaContainer" class="full-screen-example__horizontal-container">
+            <ui:VisualElement class="full-screen-example__vertical-container" style="flex-grow: 1; height: 279px;">
+                <ui:Instance template="ModalExample" name="TemplateContainer" class="full-screen-example__modal"/>
+                <ui:Instance template="ThemeSwitch" class="full-screen-example__theme-switch"/>
+            </ui:VisualElement>
+            <ui:Instance template="ControlsExample" class="full-screen-example__controls"/>
+        </UIToolKitSafeAreaContainer>
+    </ui:VisualElement>
+</ui:UXML>

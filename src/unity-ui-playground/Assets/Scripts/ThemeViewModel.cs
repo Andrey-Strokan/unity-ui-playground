@@ -21,7 +21,7 @@ public class ThemeViewModel : MonoBehaviour
     {
         var root = uiDocument.rootVisualElement;
 
-        tgl_SwitchTheme = root.Q<Toggle>();
+        tgl_SwitchTheme = root.Query("ThemeSwitch").First().Q<Toggle>();
         tgl_SwitchTheme.RegisterValueChangedCallback(OnValueChanged);
         SwitchTheme(tgl_SwitchTheme.value);
     }
